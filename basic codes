@@ -11,4 +11,5 @@ for _ in range(n):
     fib.append(a)
     a, b = b, a + b
 
+
 print(fib)
