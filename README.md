@@ -1,1 +1,18 @@
 # Ost-class
+# asks your name and greets you
+name = input("What's your name? ")
+print(f"Hello, {name}!")
+# adds two numbers typed by the user
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+print("Sum =", a + b)
+# prints first n Fibonacci numbers
+n = int(input("How many Fibonacci numbers? "))
+
+fib = []
+a, b = 0, 1
+for _ in range(n):
+    fib.append(a)
+    a, b = b, a + b
+
+print(fib)
